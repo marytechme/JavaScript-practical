@@ -81,8 +81,8 @@ if (myString.indexOf("blue") === -1){
 
 var string1 = "abc";
 var string2 = "bcd";
-
 console.log(string1 > string2);
+    
 // slice function 
 var str1 = "Hello World";
 console.log(str1);
@@ -98,3 +98,14 @@ var tags2 = tags1.split(",");
 console.log(tags2);
 var tags3 = tags1.split("meat, pork, book");
 console.log(tags3);
+
+//Arrayss
+var myArray= [];
+myArray[0] = 25;
+myArray[1] = 35;
+myArray[2] = "hello"
+myArray[3] = true;
+console.log(myArray)
+myArray[2] = "world";
+console.log(myArray);
+

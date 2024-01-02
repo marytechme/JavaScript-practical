@@ -116,4 +116,8 @@ myArray2[3];
 console.log(myArray2[3]);
 
 //Arrays using object
-var myArray3 = new Array(4);
+var myArray3 = new Array(6);
+
+//method and property
+myArray3.length;
+console.log(myArray3.length)

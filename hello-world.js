@@ -112,4 +112,5 @@ console.log(myArray);
 //quick array way
 var myArray2 = [10, 20, "book", true];
 console.log(myArray2);
-myArray[3]
+myArray2[3];
+console.log(myArray2[3]);

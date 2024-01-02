@@ -85,5 +85,8 @@ var string2 = "bcd";
 console.log(string1 > string2);
 // split and slice function 
 var str1 = "Hello World";
-console.log("str1");
+console.log(str1);
 var str2 = str1.slice(2);
+console.log(str2);
+var str3 = str1.slice(2,7);
+console.log(str3);

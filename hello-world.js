@@ -83,10 +83,18 @@ var string1 = "abc";
 var string2 = "bcd";
 
 console.log(string1 > string2);
-// split and slice function 
+// slice function 
 var str1 = "Hello World";
 console.log(str1);
 var str2 = str1.slice(2);
 console.log(str2);
 var str3 = str1.slice(2,7);
 console.log(str3);
+
+// split function
+var tags1 = "meat, pork, book, yam, love";
+console.log(tags1);
+var tags2 = tags1.split(",");
+console.log(tags2);
+var tags3 = tags1.split("meat, pork, book");
+console.log(tags3);

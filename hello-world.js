@@ -124,3 +124,5 @@ console.log(myArray3.length);
 
 myArray2.sort(); // method
 console.log(myArray2.sort());
+myArray2.reverse(); //opposite of sort
+console.log(myArray2.reverse());

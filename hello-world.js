@@ -114,3 +114,6 @@ var myArray2 = [10, 20, "book", true];
 console.log(myArray2);
 myArray2[3];
 console.log(myArray2[3]);
+
+//Arrays using object
+var myArray3 = new Array(4);

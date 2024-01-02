@@ -83,3 +83,7 @@ var string1 = "abc";
 var string2 = "bcd";
 
 console.log(string1 > string2);
+// split and slice function 
+var str1 = "Hello World";
+console.log("str1");
+var str2 = str1.slice(2);

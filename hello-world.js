@@ -99,13 +99,13 @@ console.log(tags2);
 var tags3 = tags1.split("meat, pork, book");
 console.log(tags3);
 
-//Arrayss
+//Arrays
 var myArray= [];
 myArray[0] = 25;
 myArray[1] = 35;
 myArray[2] = "hello"
 myArray[3] = true;
 console.log(myArray)
-myArray[2] = "world";
+myArray[3] = "false";
 console.log(myArray);
 

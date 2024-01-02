@@ -116,8 +116,11 @@ myArray2[3];
 console.log(myArray2[3]);
 
 //Arrays using object
-var myArray3 = new Array(6);
+var myArray3 = new Array(10);
 
-//method and property
-myArray3.length;
-console.log(myArray3.length)
+//method and property of array
+myArray3.length; //property
+console.log(myArray3.length);
+
+myArray2.sort(); // method
+console.log(myArray2.sort());

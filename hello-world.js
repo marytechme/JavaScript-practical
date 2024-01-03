@@ -129,7 +129,9 @@ console.log(myArray2.reverse());
 
 // Objects
 var myString = new String();
-myString = "hello";
+myString = "HELLO";
 console.log(myString);
 myString.length;
 console.log(myString.length);
+myString.toLowerCase;
+console.log(myString.toLowerCase);

@@ -126,3 +126,10 @@ myArray2.sort(); // method
 console.log(myArray2.sort());
 myArray2.reverse(); //opposite of sort
 console.log(myArray2.reverse());
+
+// Objects
+var myString = new String();
+myString = "hello";
+console.log(myString);
+myString.length;
+console.log(myString.length);

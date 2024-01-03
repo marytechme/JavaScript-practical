@@ -128,11 +128,11 @@ myArray2.reverse(); //opposite of sort
 console.log(myArray2.reverse());
 
 // Objects
-var myString = new String();
-myString = "HELLO"; //declaration
+var myString = new String(); //creating an object
+myString = "hello"; //declaration
 console.log(myString);
 myString.length; // properties
 console.log(myString.length);
-myString.toLowerCase(); //method or function or behaviour
+myString.toUpperCase(); //method or function or behaviour
 console.log(myString.toLowerCase);
 

@@ -110,7 +110,7 @@ myArray[3] = "false";
 console.log(myArray);
 
 //quick array way
-var myArray2 = [10, 20, "book", true];
+var myArray2 = [20, 10, "book", true];
 console.log(myArray2);
 myArray2[3];
 console.log(myArray2[3]);

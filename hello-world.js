@@ -174,6 +174,10 @@ myCar.drive = function(){ console.log("now driving");};
 myCar.drive();
 
 // shorthand notation for creating new object 
-var myCar2 = {maxSpeed: 100, driver: "Marytech", drive: function(){console.log("I am driving");}};
+var myCar2 = {
+    maxSpeed: 100, 
+    driver: "Marytech", 
+    drive: function(speed, time){console.log(speed * time);}
+};
 console.log(myCar2.maxSpeed);
-myCar2.drive();
+myCar2.drive(100, 5);

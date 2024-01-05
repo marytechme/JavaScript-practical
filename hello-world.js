@@ -172,4 +172,5 @@ myCar.driver = "Shaun";
 console.log(myCar.driver);
 myCar.drive = function(){ console.log("now driving");};
 myCar.drive();
-console.log("");
+// shorthand notation for creating new object 
+var myCar = {maxSpeed: 50, driver: "Shaun"}

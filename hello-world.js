@@ -187,9 +187,8 @@ var myCar3 = {
     maxSpeed: 100, 
     driver: "Marytech", 
     drive: function(speed, time){console.log(speed * time);},
-    test: function(){
-        console.log(this);
+    LogDriver: function(){
+        console.log("driver name is " + this.driver);
     }
 };
-console.log(myCar2.maxSpeed);
-myCar2.drive(100, 5);
+myCar3.LogDriver();
